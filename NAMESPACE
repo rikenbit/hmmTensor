@@ -1,0 +1,12 @@
+import(rTensor)
+import(symTensor)
+import(methods)
+importFrom(stats, runif, rnorm, rmultinom, rgamma)
+
+export(Forward)
+export(Backward)
+export(Viterbi)
+export(BaumWelch)
+export(Seq2Prob)
+export(HMM)
+export(toyModel)

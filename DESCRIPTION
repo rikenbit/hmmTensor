@@ -1,0 +1,24 @@
+Package: hmmTensor
+Type: Package
+Title: Hidden Markov Model by Matrix and Tensor Decomposition
+Version: 0.1.0
+Author: Koki Tsuyuzaki
+Maintainer: Koki Tsuyuzaki <k.t.the-answer@hotmail.co.jp>
+Description: Solves Hidden Markov Models (HMMs) via matrix and tensor
+    decomposition. Converts observation sequences to co-occurrence
+    matrices/tensors and applies symNMF, SVD, CP decomposition, or
+    Tensor-Train decomposition to recover HMM parameters.
+    Also provides standard HMM algorithms (Forward, Backward, Viterbi,
+    Baum-Welch) for comparison.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 3.5.0)
+Imports:
+    rTensor,
+    symTensor,
+    methods,
+    stats
+Suggests:
+    testthat
+RoxygenNote: 7.3.2
